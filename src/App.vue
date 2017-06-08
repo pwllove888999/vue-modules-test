@@ -19,7 +19,9 @@
   <v-header></v-header>
   <div class="menu-main">
     <v-menu class="menu"></v-menu>
-    <router-view name="main" class="main"></router-view>
+    <keep-alive>
+      <router-view name="main" class="main"></router-view>
+    </keep-alive>
   </div>
 </div>
 </template>
@@ -61,6 +63,13 @@ ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
+}
+
+
+/*ele组件icon样式*/
+
+[class^='el-icon-'] {
+  color: #666;
 }
 
 #app {

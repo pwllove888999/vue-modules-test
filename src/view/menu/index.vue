@@ -75,7 +75,7 @@ export default {
           $this.neighborList = res.data
           $this.handlePermission($this.neighborList)
         }
-        console.log(res)
+        // console.log(res)
       },
       error(error) {
         console.log(error);

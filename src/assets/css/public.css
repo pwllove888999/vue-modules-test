@@ -1,0 +1,4 @@
+/*loading样式*/
+.el-loading-mask.loading-style {
+  background: rgba(0, 0, 0, 0.5);
+}
